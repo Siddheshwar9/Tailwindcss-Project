@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.font-sidd-font {
+  font-family: cursive;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -561,6 +565,11 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-sidd {
+  --tw-text-opacity: 1;
+  color: rgb(92 230 92 / var(--tw-text-opacity, 1));
 }
 
 .underline {

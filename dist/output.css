@@ -554,24 +554,27 @@ video {
   display: none;
 }
 
-.font-sidd-font {
-  font-family: cursive;
+.flex {
+  display: flex;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.items-center {
+  align-items: center;
 }
 
-.font-bold {
-  font-weight: 700;
+.justify-between {
+  justify-content: space-between;
 }
 
-.text-sidd {
-  --tw-text-opacity: 1;
-  color: rgb(92 230 92 / var(--tw-text-opacity, 1));
+.gap-2 {
+  gap: 0.5rem;
 }
 
-.underline {
-  text-decoration-line: underline;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.p-3 {
+  padding: 0.75rem;
 }

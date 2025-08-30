@@ -10,8 +10,11 @@ module.exports = {
         "sidd": "#5CE65C",
       },
       fontFamily: {
-        "sidd-font": "cursive",
+        "sidd-font": ["cursive"],                           
+        "display": ["Poppins", "sans-serif"],      
+        "body": ["Martel Sans", "sans-serif"],        
       }
+
     },
   },
   plugins: [],

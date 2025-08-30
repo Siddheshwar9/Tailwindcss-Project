@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+  "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddheshwar9/tailwindcss-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddheshwar9/tailwindcss-tutorial/issues"
+  },
+  "homepage": "https://github.com/Siddheshwar9/tailwindcss-tutorial#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
